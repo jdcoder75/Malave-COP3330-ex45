@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+main -> output_file: send in the necessary info to method
+output_file --> index.txt: write to new file the altered input
+
+@enduml
